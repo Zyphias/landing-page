@@ -70,7 +70,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
 }
 
 .left-hero, .right-hero {
@@ -96,7 +95,7 @@ body {
 .content {
     display: flex;
     margin-bottom: 100px;
-    gap: 50px;
+    gap: 10px;
 }
 
 .c1, .c2, .c3, .c4 {
@@ -143,15 +142,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E5E7EB;
-    
+    background-color: #E5E7EB;    
+}
 
+.big-box {
+    width: 725px;
 }
 
 .quotation {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 170px;
+    margin-top: 80px;
 }
 
 .quote {
@@ -163,17 +166,16 @@ body {
     margin-right: 300px;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 815px;
+    flex-basis: 725px;
 }
 
-.filler {
+.filler{
     display: flex;
-    flex-direction: row;
-}
-
-.thor {
-    display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    flex-basis: 300px;
+}
+
+.author {
+    padding: 0px;
+    font-weight: bold;
+    margin-bottom: 100px;
 }
