@@ -179,3 +179,41 @@ body {
     font-weight: bold;
     margin-bottom: 100px;
 }
+
+/* ---------------------- CSS for section four ------------------------ */
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.small-box {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 80px;
+}
+
+.call {
+    margin-bottom: 0px;
+}
+
+.description {
+    margin-top: 0px;
+    font-weight: 300;
+}
+
+.sign-up {
+    border: white solid 2px;
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 28px;
+    border-radius: 7px;
+}
